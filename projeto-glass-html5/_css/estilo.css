@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@font-face{
+    font-family: 'FonteChiclete' ;
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+a {
+    color: gray;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+Body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: rgba(0,0,0,1);
+}
+table#tabela_spec{
+    border: 1px gray solid;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+table#tabela_spec td{
+    border: 1px gray solid;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+table#tabela_spec td.cleft{
+    color: white;
+    background-color: gray;
+    vertical-align: top;
+    font-weight: bold;
+}
+table#tabela_spec td.cright{
+    background-color: #cecece;
+    text-align: left;
+}
+table#tabela_spec caption{
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+table#tabela_spec caption span{
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+div#interface{
+    width: 900px;
+    margin: -20px auto 0px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.6);
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+header#cabecalho img#icone{
+    position: absolute;
+    left: 950px;
+    top: 70px;
+}
+header#cabecalho{
+    border-bottom: 1px gray solid;
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 100px;
+}
+header#cabecalho-artigo h1{
+    font-family: 'FonteChiclete', sans-serif;
+    font-size: 20pt;
+    margin-bottom: 0px;
+    color: gray;
+    margin-top: 10px;
+}
+header#cabecalho-artigo h3{
+    font-size: 7pt;
+    color: gray;
+}  
+.direita{
+    text-align: right;
+}
+
+
+header#cabecalho h1{
+    font-family: 'FonteChiclete', sans-serif;
+    font-size: 30pt;
+    color: #666666;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+header#cabecalho h2{
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 15pt;
+    color: #888888;
+    padding: 0px;
+    margin-top: 0px;
+}
+article#noticia-foco h2{
+    font-size: 10pt;
+    color:#606060;
+    background-color: #dddddd;
+    margin: 10px 0px 10px 0px;
+    padding: 5px 0px 5px 5px;
+    text-align: center;
+}
+
+/* formatação de imagens com legenda */
+
+figure.foto-legenda{
+    position: relative;
+    Border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+
+}
+figure.foto-legenda img {
+    width: 100%;
+    height:100%;
+}
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+figure.foto-legenda:hover figcaption{
+    opacity: 1;
+}
+
+/*
+Formataao do menu
+*/
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 500px;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: #dddddd;
+    margin: 10px;
+    padding: 2px;
+    transition: background-color 1s;
+
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu li:hover {
+    background-color: #606060;
+}
+
+nav#menu a{
+    color: black;
+    text-decoration: none;
+}
+nav#menu a:hover{
+    color: white;
+}
+
+section#sessao {
+    display: block;
+    width: 450px;
+    float: left;
+    border-right: 1px gray solid;
+    padding-right: 25px;
+}
+aside#ao_lado {
+    display: block;
+    width: 400px;
+    float: right;
+    background-color: #dddddd;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+aside#ao_lado h1{
+    font-family: 'FonteChiclete', sans-serif;
+    font-size: 20pt;
+    color: gray;
+    margin-top: 12px;
+}
+aside#ao_lado h2{
+    font-size: 13pt;
+    background-color: gray;
+    padding-left: 10px;
+    margin-left: -15px;
+    color: white;
+}
+footer#rodape {
+    clear: both;
+    border-top: 1px gray solid;
+    
+}
+video#diadia{  
+   width: 450px;
+   padding-bottom: 10px;
+}

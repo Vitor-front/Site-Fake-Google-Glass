@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'FonteChiclete' ;
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+hgroup#hmedia h1{
+    font-family: 'FonteChiclete', 'sans-serif';
+    color: #5e5c5c;
+    margin-top: 0px;
+    font-size: 30pt;
+    margin-bottom: 0px;
+}
+hgroup#hmedia h3{
+    font-family: Normal, Arial;
+    font-size: 10pt;
+    color: rgb(83, 82, 82);
+}
+hgroup#hmedia h2{
+    color: rgb(153, 150, 150);
+    font-size: 12pt;
+}
+div#tv-radio audio#musica {
+    outline: 0;
+}
+div#tv-radio video#filme {
+    outline: 0;
+}
+div#tv-radio {
+    width: 900px;
+    height: 580px;
+    margin: auto;
+    background: url('../_imagens/radio-tv.png') no-repeat;
+}
+audio#musica {
+    display: block;
+    position: relative;
+    left: 575px;
+    top: 490px;
+    
+}
+video#filme {
+    display: block;
+    position: relative;
+    left: 85px;
+    top: 50px;
+    width: 440px;
+}
